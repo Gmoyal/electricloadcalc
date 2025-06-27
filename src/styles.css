@@ -1,0 +1,169 @@
+/* styles.css */
+/* Root container */
+.elec-calc-root {
+  max-width: 760px;
+  margin: 40px auto;
+  padding: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f5f6fa;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px #e3e3e3;
+}
+
+/* Header */
+.elec-calc-header {
+  display: flex;
+  align-items: center;
+  padding: 32px 32px 0 32px;
+}
+
+.elec-calc-logo {
+  width: 120px;
+  margin-right: 20px;
+}
+
+.elec-calc-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #19335a;
+  letter-spacing: 0.02em;
+}
+
+/* Section Card */
+.elec-calc-section {
+  background: #fff;
+  border-radius: 14px;
+  margin: 22px 32px;
+  padding: 24px;
+  box-shadow: 0 1px 8px #e0e5ec60;
+}
+
+.elec-calc-sec-header {
+  font-weight: 700;
+  font-size: 1.18rem;
+  margin-bottom: 16px;
+  color: #285197;
+  letter-spacing: 0.01em;
+}
+
+/* Inputs */
+.elec-calc-input,
+.elec-calc-select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 14px 0;
+  border-radius: 4px;
+  border: 1px solid #b4bcd0;
+  font-size: 1rem;
+  background: #fafdff;
+  transition: border 0.2s;
+}
+
+.elec-calc-input:focus,
+.elec-calc-select:focus {
+  border: 1.5px solid #285197;
+  outline: none;
+}
+
+/* Button */
+.elec-calc-btn {
+  background: #285197;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 14px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 6px #e0e8ee60;
+  transition: background 0.18s;
+}
+
+.elec-calc-btn:hover {
+  background: #224277;
+}
+
+/* Table */
+.elec-calc-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+
+.elec-calc-table thead {
+  background: #f2f4fa;
+}
+
+.elec-calc-table th,
+.elec-calc-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.elec-calc-table th {
+  font-weight: 700;
+}
+
+.elec-calc-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Remove button (row) */
+.elec-calc-remove-btn {
+  color: #ba1b1b;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.12rem;
+}
+
+.elec-calc-remove-btn:hover {
+  color: #e00000;
+}
+
+/* Summary Table */
+.elec-calc-summary-table {
+  width: 100%;
+  font-size: 1.08rem;
+  margin-bottom: 18px;
+}
+
+.elec-calc-summary-table td {
+  padding: 8px 6px;
+}
+
+.elec-calc-summary-table tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+.elec-calc-summary-table b {
+  color: #285197;
+}
+
+/* Disclaimer */
+.elec-calc-disclaimer {
+  background: #fde6e6;
+  color: #b12b2b;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 18px;
+  font-size: 1.02rem;
+  text-align: left;
+}
+
+/* Contact */
+.elec-calc-contact {
+  color: #166534;
+  font-weight: bold;
+  margin-top: 13px;
+  font-size: 1.09rem;
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-family: inherit;
+}
